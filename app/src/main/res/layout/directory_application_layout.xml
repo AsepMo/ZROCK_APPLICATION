@@ -1,0 +1,33 @@
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/content_view"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:showIn="@layout/activity_application">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<FrameLayout
+				android:id="@+id/appList"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@color/colorPrimaryDark"/>
+
+		</LinearLayout>
+
+	<android.support.design.widget.BottomNavigationView
+		android:id="@+id/bottom_navigation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		app:menu="@menu/zrock_menu_bottom"
+		app:itemIconTint="@color/bottomview_color_state_list"
+		app:itemTextColor="@color/bottomview_color_state_list"
+		app:itemBackground="@color/colorPrimary"/>
+	
+</android.support.design.widget.CoordinatorLayout>

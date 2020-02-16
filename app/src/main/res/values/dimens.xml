@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<!-- Dimens For FloatingActionButton -->
+    <dimen name="fab_margin">16dp</dimen>
+	<!-- Dimens For Toolbar -->
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="scroll_threshold">4dp</dimen>
+    <dimen name="first_keyline">16dp</dimen>
+    <dimen name="second_keyline">72dp</dimen>
+    <dimen name="second_keyline_default">72dp</dimen>
+    <dimen name="toolbar_h_padding">4dp</dimen>
+    <dimen name="side_navigation_width">304dp</dimen>
+	<dimen name="expander_inset">8dp</dimen>
+    <dimen name="big_spacing">24dp</dimen>
+	<!-- Dimens For About -->
+	<dimen name="about_icon_size">34dp</dimen>
+    <dimen name="about_icon_padding">8dp</dimen>
+    <dimen name="about_text_padding">8dp</dimen>
+    <dimen name="about_group_text_padding">16dp</dimen>
+    <dimen name="about_separator_height">0.5dp</dimen>
+    <dimen name="about_description_text_size">16sp</dimen>
+    <dimen name="about_item_text_size">16sp</dimen>
+    <dimen name="about_group_item_text_size">18sp</dimen>
+	
+	<dimen name="recycler_view_left_offset">9dp</dimen>
+    <dimen name="left_offset">61dp</dimen>
+    <dimen name="card_width">148dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+	<dimen name="card_bottom_info_height">150dp</dimen>
+    <dimen name="card_extra_height">20dp</dimen>
+
+	<dimen name="dp1">1dp</dimen>
+
+	<!-- Stepper View -->
+	<dimen name="stepper_margin_top">24dp</dimen>
+	<dimen name="stepper_point_size">24dp</dimen>
+	<dimen name="stepper_point_half_size">12dp</dimen>
+	<dimen name="vertical_stepper_point_margin_start">24dp</dimen>
+	<dimen name="vertical_stepper_point_margin_end">12dp</dimen>
+	<dimen name="vertical_stepper_line_margin_top">8dp</dimen>
+	<dimen name="vertical_stepper_line_width">1dp</dimen>
+	<dimen name="vertical_stepper_item_space_height">8dp</dimen>
+	
+</resources>

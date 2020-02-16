@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".engine.PluginActivity">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="?attr/colorPrimary"
+		android:elevation="8dp"
+		app:contentInsetLeft="@dimen/second_keyline_default"
+		app:contentInsetStart="@dimen/second_keyline_default"
+		app:popupTheme="?attr/actionBarPopupTheme"
+		app:theme="?attr/actionBarTheme">
+
+	</android.support.v7.widget.Toolbar>
+
+	<LinearLayout
+		android:id="@+id/top"
+		android:layout_below="@id/toolbar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<EditText
+			android:id="@+id/pluginDirTxt"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.69"
+			android:hint="@string/pl_dir"/>
+
+		<Button
+			android:id="@+id/pluginLoader"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/pl_load"/>
+
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/pluglist"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/top"
+		android:fadingEdge="none"
+		android:scrollbars="vertical"
+		android:scrollingCache="true"/>
+
+</RelativeLayout>
+

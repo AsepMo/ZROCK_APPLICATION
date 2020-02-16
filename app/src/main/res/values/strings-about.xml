@@ -1,0 +1,22 @@
+<resources>
+    <string name="about_page_description" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula ligula tortor, in pellentesque dui congue ac. Vestibulum lacinia urna magna, quis cursus ante iaculis nec. Nunc ut ligula sit amet odio ultrices euismod vel vel purus. Sed lacus mauris, aliquam et placerat id</string>
+    <string name="about_contact_us">Contact us</string>
+    <string name="about_instagram">Follow us on Instagram</string>
+    <string name="about_facebook">Like us on Facebook</string>
+    <string name="about_play_store">Rate us on the Play Store</string>
+    <string name="about_youtube">Watch us on Youtube</string>
+    <string name="about_twitter">Follow us on Twitter</string>
+    <string name="about_github">Fork us on GitHub</string>
+    <string name="about_website">Visit our website</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+	
+	<string name="root">Root</string>
+	<string name="exit">Exit</string>
+	<string name="pl_dir">请输入插件路径</string>
+    <string name="pl_load">加载插件</string>
+    <string name="plug_icon_desc">插件图标</string>
+    <string name="loading">正在加载插件，请稍候\u2026</string>
+    <string name="dialod_loading_title">请稍候\u2026</string>
+    <string name="dialod_loading_body">正在加载插件\u2026</string>
+	
+</resources>

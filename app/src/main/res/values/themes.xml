@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+	Normally just a redirection, but this is used to make ourselves a
+	dialog on large tablets
+
+    -->
+	<style name="Theme.Splash" parent="@style/Theme.ZRock">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+
+    </style>
+	
+    <style name="Theme.ZRock.Application" parent="@style/Theme.ZRock">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.About" parent="@style/DialogWhenReallyLarge">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/primary_text_default_material_dark</item>
+    </style>
+
+    <style name="Theme.Setting" parent="@style/Theme.ZRock">
+        <item name="colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="colorControlActivated">?android:attr/textColorPrimary</item>
+        <item name="windowActionBar">true</item>
+    </style>
+	
+    <style name="DialogWhenReallyLarge" parent="@style/Theme.AppCompat.DayNight"/>
+
+    <style name="Theme.ZRock" parent="@style/DialogWhenReallyLarge">
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="actionModeBackground">@color/alertDarkColor</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/primary_text_default_material_dark</item>
+        <item name="colorControlActivated">@color/primary_text_default_material_dark</item>
+
+        <!--<item name="android:listDivider">@drawable/list_divider_material</item>-->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="*android:windowFixedWidthMajor">@null</item>
+        <item name="*android:windowFixedWidthMinor">@null</item>
+        <item name="*android:windowMinWidthMajor">@null</item>
+        <item name="*android:windowMinWidthMinor">@null</item>
+		<!--        <item name="*android:windowFixedHeightMajor">80%</item>-->
+		<!--        <item name="*android:windowFixedHeightMinor">90%</item>-->
+
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+
+        <!-- android transitions -->
+        <item name="*android:windowContentTransitions">true</item>
+        <item name="*android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="*android:windowAllowReturnTransitionOverlap">true</item>
+	</style>
+	
+</resources>

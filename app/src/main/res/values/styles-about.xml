@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="about_About" />
+
+    <style name="about_About.wrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/about_background_color</item>
+    </style>
+
+    <style name="about_sub_wrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="about_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="about_description" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/about_page_description</item>
+        <item name="android:lineSpacingExtra">8dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textColor">@color/about_description_text_color</item>
+        <item name="android:textSize">@dimen/about_description_text_size</item>
+    </style>
+
+    <style name="about_separator">
+        <item name="android:layout_height">@dimen/about_separator_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/about_separator_color</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="about_elementTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/about_text_color</item>
+        <item name="android:textSize">@dimen/about_item_text_size</item>
+    </style>
+
+    <style name="about_groupTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/about_item_text_color</item>
+        <item name="android:textSize">@dimen/about_group_item_text_size</item>
+    </style>
+   
+	<style name="TextAppearance.Widget.Stepper.Done" parent="TextAppearance.MaterialCompat.Body1">
+
+	</style>
+
+	<style name="TextAppearance.Widget.Stepper.Selected" parent="TextAppearance.MaterialCompat.Body2">
+
+	</style>
+
+	<style name="TextAppearance.Widget.Stepper.Normal" parent="TextAppearance.MaterialCompat.Body1">
+		<item name="android:textColor">?android:textColorSecondary</item>
+	</style>
+
+	<style name="Widget.Stepper" parent="">
+		<item name="step_normal_color">@color/material_grey_500</item>
+		<item name="step_activated_color">@color/material_blue_500</item>
+		<item name="step_done_icon">@drawable/ic_done_white_16dp</item>
+		<item name="step_animation_duration">@android:integer/config_shortAnimTime</item>
+		<item name="step_line_color">@color/material_grey_500</item>
+		<item name="step_error_highlight_color">@color/material_red_500</item>
+	</style>
+
+	<style name="TextAppearance"/>
+
+	<style name="TextAppearance.MaterialCompat"/>
+
+	<style name="TextAppearance.MaterialCompat.Body1">
+		<item name="android:textSize">14sp</item>
+		<item name="android:fontFamily">sans-serif</item>
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+	</style>
+
+	<style name="TextAppearance.MaterialCompat.Body2">
+		<item name="android:textSize">14sp</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+	</style>
+
+</resources>

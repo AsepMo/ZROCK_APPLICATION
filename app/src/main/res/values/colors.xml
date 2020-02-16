@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorAccent">#ff00318c</color>
+	<color name="colorBlueDark">#ff0e0c4b</color>
+	<color name="colorGrey">#ffcecece</color>
+	<color name="colorPrimary">#ff00318c</color>
+	<color name="colorPrimaryDark">#ff100d71</color>
+	<color name="colorPrimaryOpacity">#5000318c</color>
+	<color name="colorPrimaryOpacity60">#6000318c</color>
+	<color name="colorWhite">#ffffffff</color>
+	<color name="colorWhiteHalfOpacity">#50ffffff</color>
+	<color name="color_line">#ff8a8a8a</color>
+	<color name="colorRed500">#f44336</color>
+    <color name="colorPink500">#e91e63</color>
+    <color name="colorBrown500">#795548</color>
+	 
+	<color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+	
+	<color name="blue">#348af7</color>
+
+    <color name="temperature_background">@color/blue</color>
+    <color name="temperature_text">@android:color/white</color>
+
+    <color name="green_dot_big">@color/blue</color>
+    <color name="green_dot_small">@color/blue</color>
+	<color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+    <color name="spinner_base_color">#44000000</color>
+    <color name="spinner_hint_text_color">#ffffcc</color>
+    <color name="arrow">#0000FF</color>
+	<color name="black_text_color">#000000</color>
+    <color name="content_pint">#FAEBD7</color>
+    <color name="content_grey">#686868</color>
+    <color name="time_grey">#9c9c9c</color>
+    <color name="list_diveder_grey">#e3e3e3 </color>
+	
+    <color name="defaultThemeColor">#808080</color>
+	<color name="defaultColor">#0288D1</color>
+    <color name="alertColor">#323232</color>
+    <color name="alertDarkColor">#ff242424</color>
+    <color name="divider_light">#97dddddd</color>
+
+    <color name="window_background">#fff1f1f1</color>
+    <color name="drawer_background">#fff1f1f1</color>
+    <color name="directory_background">#fff7f7f7</color>
+	
+	<!-- color prefernce -->
+    <string-array name="default_color_choice_values" translatable="false">
+        <item>#0288D1</item>
+        <item>#f44336</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#673AB7</item>
+        <item>#3F51B5</item>
+        <item>#03A9F4</item>
+        <item>#00BCD4</item>
+        <item>#009688</item>
+        <item>#4CAF50</item>
+        <item>#8BC34A</item>
+        <item>#CDDC39</item>
+        <item>#FFEB3B</item>
+        <item>#FFC107</item>
+        <item>#FF9800</item>
+        <item>#FF5722</item>
+        <item>#795548</item>
+        <item>#9E9E9E</item>
+        <item>#607D8B</item>
+        <item>#222222</item>
+    </string-array>
+	    
+	<color name="labelbg_1">#7F8C8D</color>
+    <color name="labelbg_2">#95A5A6</color>
+    <color name="labelbg_3">#BDC3C7</color>
+
+</resources>

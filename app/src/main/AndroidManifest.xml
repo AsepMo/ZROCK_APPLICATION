@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zrock.application" >
+
+	<!-- PERMISSION CONNECTION -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+		
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_zrock"
+        android:label="@string/app_name"
+        android:resizeableActivity = "true">
+        <activity
+            android:name="zrock.application.StartActivity"
+            android:label="@string/app_name" 
+			android:theme="@style/Theme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity
+            android:name="zrock.application.ApplicationActivity"
+            android:label="@string/app_name"
+			android:theme="@style/Theme.ZRock.Application">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<!-- ZROCK APPLICATION ENGINE-->
+		<activity
+            android:name="zrock.application.engine.app.DetailActivity"
+            android:label="@string/app_name"
+			android:theme="@style/Theme.About">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<!-- ZROCK APPLICATION SETTINGS-->
+		<activity
+            android:name="zrock.application.engine.app.setting.SettingsActivity"
+            android:label="@string/app_name"
+			android:theme="@style/Theme.ZRock.Application">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

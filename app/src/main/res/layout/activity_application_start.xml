@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimaryDark">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:background="@color/colorPrimaryDark"
+		android:id="@+id/layout1">
+
+		<zrock.application.engine.widget.CircularProgressBar
+			android:id="@+id/progressBar_1"
+			android:layout_width="260dp"
+			android:layout_height="260dp"
+			android:layout_centerInParent="true"
+			app:animateProgress="true"
+			app:backgroundStrokeColor="#ff3f51b5"
+			app:backgroundStrokeWidth="2dp"
+			app:drawBackgroundStroke="false"
+			app:foregroundStrokeCap="butt"
+			app:foregroundStrokeColor="#ffff4081"
+			app:foregroundStrokeWidth="3dp"
+			app:indeterminate="true"
+			app:indeterminateRotationAnimationDuration="1200"
+			app:indeterminateSweepAnimationDuration="600"
+			app:indeterminateMinimumAngle="45"
+			app:maximum="100"
+			app:progress="50"
+			app:progressAnimationDuration="100"
+			app:startAngle="270"/>
+		
+		<ImageView
+			android:id="@+id/splash_text_1"
+			android:layout_width="210dp"
+			android:layout_height="210dp"
+			android:layout_centerHorizontal="true"
+			android:layout_centerInParent="true"
+			android:src="@drawable/icon_zrock"/>
+
+		<TextView
+			android:layout_below="@id/splash_text_1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:shadowDx="3.0"
+			android:text="V3.6"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#FFFFFF"
+			android:layout_marginBottom="31dp"
+			android:id="@+id/splash_text_2"/>
+
+	</RelativeLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Please Wait...."
+		android:layout_alignParentBottom="true"
+		android:gravity="center"
+		android:textColor="#FFFFFF"
+		android:id="@+id/loading"/>
+
+</RelativeLayout>
+

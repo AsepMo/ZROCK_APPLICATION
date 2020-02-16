@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZROCK</string>
+    <string name="hello_world">Hello world!</string>
+	<!-- ZROCK Option Menu-->
+	<string name="action_settings">Settings</string>
+    <string name="action_github">Get on GitHub</string>
+    <string name="action_info">info</string>
+	<!-- ZROCK Navigation Menu-->
+	<string name="zrock_drawer_open">Open</string>
+	<string name="zrock_drawer_close">Close</string>
+    <string name="zrock_ex_no_menu_view">No view for menu provided. You must either call .withMenuView(View) or pass a valid resource id to .withMenuLayout(int)</string>
+    <string name="zrock_ex_bad_content_view">Your content view must contain exactly one child. Make sure you call inject() after setContentView().</string>
+	<string name="zrock_account_balance">Device</string>
+    <string name="zrock_balance_currency">#</string>
+    <string name="zrock_balance_amount">ROOTED</string>
+	<string name="item_vertical_stepper">Vertical Stepper (Item View)</string>
+	<string name="item_vertical_stepper_adapter">Vertical Stepper (Adapter)</string>
+	
+	<!-- Donate dialog -->
+	<string name="donate_dialog_title">Support me</string>
+	<string name="donate_dialog_message">If you like this library project and you are willing to support me, you can donate me via Alipay or PayPal.\n\nAlipay: fythonx\@gmail.com\nPayPal: Click PAYPAL button to open a new tab.</string>
+	<string name="doante_dialog_paypal_button">PayPal</string>
+	<string name="settings_check_for_updates">Check for updates</string>
+    <string name="settings_check_for_updates_summary">Check for new versions using AppUpdater library.</string>
+	<!-- Vertical Stepper View Sample Item -->
+	<string name="content_step_0">Tahap Pertama Sebelum Root.Backup Seluruh Data Penting Yang Tersimpan Di Memory Internal HP.
+		Untuk Menghindari Hal-hal Tak Terduga Yang Membuat Anda Kehilangan Data Penting.
+		Anda Bisa Membackup Data Anda Ke Cloud.
+		Dan Jangan Lupa Aktifkan Data Internet.Root Dengan Aplikasi Memerlukan Akses Penuh Internet.
+		Untuk Menyesuaikan Metode Root Dengan Device HP Anda.Klik "OK"  Untuk Melanjutkan Ke Step Berikutnya.</string>
+	<string name="content_step_1">Tahap Kedua.Check Device Anda Apakah Termasuk HP Yang Dapat Langsung ROOT Dengan KINGOROOT.Atau Harus Membuka Kunci Bootloadernya Terlebih Dahulu.
+		Cara Unlock Bootloader Cari Di Google Search Dengan Kata Kunci("Cara Unlock Bootloader Xiami Redmi Note 3 Atau Nama Device HP Android Anda").
+		Dan Pastikan Baterai HP Anda Minimal 85 Persen.Agar HP Anda Tidak Shutdown Selama Proses Root.Klik "OK"</string>
+	<string name="content_step_2">Tahap Ketiga.Aktifkan Opsi Pengembang Sebelum Melakukan Root.
+		Dan Masukkan Device Ke Dalam Mode Debug.
+		Yang Artinya HP Anda Siap Dimodifikasi.
+		Untuk Lebih Jelasnya Tentang Usb Debugging.
+		Cari Di Google Search Dengan Kata Kunci ("Fungsi Usb Debugging Mode").Setelah Semua Tahap Persiapan Dilewati.Maka Tunggu Proses Root Berlangsung.
+		Biarkan Layar HP Anda Tetap Menyala.
+		Root Dengan KingoRoot Memerlukan Waktu 5 menit.
+		Apabila Root Berhasil.Maka Ada Konfirmasi Sukses.Dan Di HP Anda Terinstall Aplikasi KINGOUSER Yang Berguna Untuk Memanajemeni Root.
+		Mengijinkan Aplikasi Lain Menggunakan Akses Root Atau Tidak.Menghapus Aplikasi Installer Dan Aplikasi System.</string>
+	<string name="content_step_3">Tahap Ketiga.</string>
+	<string name="content_step_4">Tahap Keempat.</string>
+	<string name="content_step_5">Tahap Selanjutnya.</string>
+	<string name="toggle_animation_button">Toggle Animation</string>
+</resources>

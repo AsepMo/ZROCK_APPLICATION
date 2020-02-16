@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DarkerOverflow" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/abc_ic_menu_overflow_material</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:displayOptions">showHome|useLogo</item>
+    </style>
+	
+	<style name="labelStyle" parent="@android:style/Widget.TextView">
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="labelStyle2" parent="labelStyle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

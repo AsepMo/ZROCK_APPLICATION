@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="app">
+        <attr name="bottomDragVisibleHeight" format="dimension" />
+        <attr name="bototmExtraIndicatorHeight" format="dimension" />
+    </declare-styleable>
+	<!-- ATTRIBUTE SEEKBAR PREFERENCE-->
+    <declare-styleable name="SeekBarPreference">
+        <attr name="max" format="integer" />
+    </declare-styleable>
+	<!-- ATTRIBUTE WAVE PROGGRESSVIEW -->
+    <declare-styleable name="BeerProgressView">
+        <attr name="waveColor" format="color"/>
+        <attr name="waveProgress" format="integer"/>
+    </declare-styleable>
+	<!-- ATTRIBUTE EASYRECYCLERVIEW-->
+	<declare-styleable name="EasyRecyclerView">
+        <attr name="layout_empty" format="reference" />
+        <attr name="layout_progress" format="reference" />
+        <attr name="layout_error" format="reference" />
+        <attr name="recyclerClipToPadding" format="boolean" />
+        <attr name="recyclerPadding" format="dimension" />
+        <attr name="recyclerPaddingTop" format="dimension" />
+        <attr name="recyclerPaddingBottom" format="dimension" />
+        <attr name="recyclerPaddingLeft" format="dimension" />
+        <attr name="recyclerPaddingRight" format="dimension" />
+        <attr name="scrollbarStyle">
+            <enum name="insideOverlay" value="0x0" />
+            <enum name="insideInset" value="0x01000000" />
+            <enum name="outsideOverlay" value="0x02000000" />
+            <enum name="outsideInset" value="0x03000000" />
+        </attr>
+        <attr name="scrollbars">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="0"/>
+            <enum name="none" value="2"/>
+        </attr>
+    </declare-styleable>
+
+	<!-- ATTRIBUTE CIRCULARPROGRESSBAR -->
+    <declare-styleable name="CircularProgressBar">
+        <attr format="float" name="maximum"/>
+        <attr format="float" name="progress"/>
+        <attr format="boolean" name="animateProgress"/>
+        <attr format="integer" name="progressAnimationDuration"/>
+        <attr format="color" name="foregroundStrokeColor"/>
+        <attr format="dimension" name="foregroundStrokeWidth"/>
+        <attr format="boolean" name="drawBackgroundStroke"/>
+        <attr format="color" name="backgroundStrokeColor"/>
+        <attr format="dimension" name="backgroundStrokeWidth"/>
+        <attr format="float" name="startAngle"/>
+        <attr format="boolean" name="indeterminate"/>
+        <attr format="float" name="indeterminateMinimumAngle"/>
+        <attr format="integer" name="indeterminateSweepAnimationDuration"/>
+        <attr format="integer" name="indeterminateRotationAnimationDuration"/>
+        <attr format="enum" name="foregroundStrokeCap">
+            <enum name="butt" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="square" value="2"/>
+        </attr>
+    </declare-styleable>
+	<attr name="interval" format="integer"/>
+    <attr name="showIndicator" format="boolean"/>
+    <attr name="orientation" format="enum">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr>
+	<!-- ATTRIBUTE BANNERLAYOUT-->
+    <attr name="autoPlaying" format="boolean"/>
+    <declare-styleable name="RecyclerViewBannerBase">
+        <attr name="interval"/>
+        <attr name="showIndicator" />
+        <attr name="orientation" />
+        <attr name="autoPlaying"/>
+        <attr name="indicatorSelectedSrc" format="color|reference"/>
+        <attr name="indicatorUnselectedSrc" format="color|reference"/>
+        <attr name="indicatorSpace" format="dimension|reference"/>
+        <attr name="indicatorMarginLeft" format="dimension|reference"/>
+        <attr name="indicatorMarginRight" format="dimension|reference"/>
+        <attr name="indicatorMarginBottom" format="dimension|reference"/>
+        <attr name="indicatorGravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+	<declare-styleable name="BannerLayout">
+        <attr name="interval" />
+        <attr name="showIndicator" />
+        <attr name="orientation" />
+        <attr name="autoPlaying"/>
+        <attr name="itemSpace" format="integer"/>
+        <attr name="centerScale" format="float"/>
+        <attr name="moveSpeed" format="float"/>
+    </declare-styleable>
+	<!-- ATTRIBUTE STEPPERVIEW -->
+	<attr name="step_normal_color" format="color"/>
+	<attr name="step_activated_color" format="color"/>
+	<attr name="step_done_icon" format="reference"/>
+	<attr name="step_animation_duration" format="integer"/>
+	<attr name="step_enable_animation" format="boolean"/>
+	<attr name="step_line_color" format="color"/>
+	<attr name="step_error_highlight_color" format="color"/>
+	<attr name="step_show_summary_always" format="boolean"/>
+	<declare-styleable name="VerticalStepperView">
+		<attr name="step_normal_color"/>
+		<attr name="step_activated_color"/>
+		<attr name="step_done_icon"/>
+		<attr name="step_animation_duration"/>
+		<attr name="step_enable_animation"/>
+		<attr name="step_line_color"/>
+		<attr name="step_error_highlight_color"/>
+		<attr name="step_show_summary_always"/>
+	</declare-styleable>
+
+	<declare-styleable name="VerticalStepperItemView">
+		<attr name="step_index" format="integer"/>
+		<attr name="step_title" format="string"/>
+		<attr name="step_summary" format="string"/>
+		<attr name="step_summary_done" format="string"/>
+		<attr name="step_is_last" format="boolean"/>
+		<attr name="step_state" format="enum">
+			<enum name="normal" value="0"/>
+			<enum name="selected" value="1"/>
+			<enum name="done" value="2"/>
+		</attr>
+		<attr name="step_normal_color"/>
+		<attr name="step_activated_color"/>
+		<attr name="step_done_icon"/>
+		<attr name="step_animation_duration"/>
+		<attr name="step_enable_animation"/>
+		<attr name="step_line_color"/>
+		<attr name="step_error_highlight_color"/>
+		<attr name="step_show_summary_always"/>
+	</declare-styleable>
+
+	<!-- ATTRIBUTE TEXTPATH -->
+	<attr name="duration" format="integer"/>
+    <attr name="showPainter" format="boolean"/>
+    <attr name="showPainterActually" format="boolean"/>
+    <attr name="pathStrokeWidth" format="dimension"/>
+    <attr name="pathStrokeColor" format="color"/>
+    <attr name="paintStrokeWidth" format="dimension"/>
+    <attr name="paintStrokeColor" format="color"/>
+    <attr name="fillColor" format="color"/>
+    <attr name="repeat" format="enum">
+        <enum name="RESTART" value="1"/>
+        <enum name="REVERSE" value="2"/>
+    </attr>
+    <declare-styleable name="TextPathView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="autoStart" format="boolean"/>
+        <attr name="showInStart" format="boolean"/>
+        <attr name="textInCenter" format="boolean"/>
+        <attr name="duration" />
+        <attr name="showPainter" />
+        <attr name="showPainterActually" />
+        <attr name="pathStrokeWidth" />
+        <attr name="pathStrokeColor" />
+        <attr name="paintStrokeWidth" />
+        <attr name="paintStrokeColor" />
+        <attr name="repeat" />
+    </declare-styleable>
+
+    <declare-styleable name="PathView">
+        <attr name="duration" />
+        <attr name="showPainter" />
+        <attr name="showPainterActually" />
+        <attr name="pathStrokeWidth" />
+        <attr name="pathStrokeColor" />
+        <attr name="paintStrokeWidth" />
+        <attr name="paintStrokeColor" />
+        <attr name="repeat" />
+    </declare-styleable>
+</resources>
