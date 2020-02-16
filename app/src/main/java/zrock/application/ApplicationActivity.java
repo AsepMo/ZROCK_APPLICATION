@@ -6,6 +6,7 @@ import zrock.application.engine.app.MessageFragment;
 import zrock.application.engine.app.ChartFragment;
 import zrock.application.engine.app.FavoriteZRock;
 import zrock.application.engine.app.DeviceFragment;
+import zrock.application.engine.app.setting.SettingsActivity;
 import zrock.application.engine.widget.CircularProgressBar;
 import zrock.application.engine.view.menu.DrawerAdapter;
 import zrock.application.engine.view.menu.DrawerItem;
@@ -14,7 +15,6 @@ import zrock.application.engine.view.menu.SpaceItem;
 import zrock.application.engine.widget.SlidingRootNav;
 import zrock.application.engine.widget.SlidingRootNavBuilder;
 import zrock.application.root.checker.RootChecker;
-import zrock.application.settings.SettingsActivity;
 
 import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
