@@ -1,4 +1,4 @@
-package zrock.application.setting;
+package zrock.application.engine.app.setting;
 
 import zrock.application.R;
 import zrock.application.engine.app.updater.AppUpdater;
